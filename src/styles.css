@@ -1,7 +1,68 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+  background: #272045;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/snow.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffebcd;
+  padding: 200px 0;
+}
+header h1 {
   font-weight: 700;
+  line-height: 1.5;
   font-size: 96px;
-  line-height: 144px;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 45px;
+  margin: 0;
+}
+header h3 {
+  font-weight: 900;
+  line-height: 1;
+  font-size: 24px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+header a {
+  font-weight: 700;
+  line-height: 1;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  background-color: #ffebcd;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  margin-top: 32px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
 }

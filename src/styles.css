@@ -51,7 +51,7 @@ header a {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 section {
@@ -68,7 +68,6 @@ footer {
 
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 80px 0;
 }
 
 footer h3 {
@@ -113,5 +112,8 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr 2fr 2fr;
   }
 }
